@@ -75,3 +75,15 @@ body{
     bottom: 0px;
     z-index: 1;
 }
+
+#loginModal .modal-header, #reserveModal .modal-header{
+    color: floralwhite;
+    background: $background-dark;
+    button{
+        color: floralwhite;
+    }
+}
+
+#loginModal .modal-body, #reserveModal .modal-body{
+    background: $background-pale;
+}
